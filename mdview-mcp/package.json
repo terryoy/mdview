@@ -1,0 +1,13 @@
+{
+  "name": "mdview-mcp",
+  "version": "2.0.0",
+  "description": "本地文件桥 MCP Server + MCP App UI（工作站 1 号工具 v2）",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}

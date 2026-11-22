@@ -1,0 +1,18 @@
+# Build outputs
+mdview/mdview
+bin/
+dist/
+
+# Dependencies
+mdview-mcp/node_modules/
+
+# Local/runtime files
+.env
+.env.*
+*.log
+.DS_Store
+
+# Generated application snapshots
+*.html
+!mdview/assets/index.html
+!mdview-mcp/assets/index.html

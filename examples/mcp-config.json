@@ -1,0 +1,9 @@
+{
+  "type": "stdio",
+  "name": "mdview",
+  "cmd": "/absolute/path/to/node",
+  "args": ["/absolute/path/to/mdview/mdview-mcp/server.js"],
+  "envs": {
+    "MDVIEW_ROOT": "/home/you/agent-workspace"
+  }
+}

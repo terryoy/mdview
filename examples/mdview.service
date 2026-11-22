@@ -1,0 +1,11 @@
+[Unit]
+Description=mdview local file viewer
+After=default.target
+
+[Service]
+ExecStart=%h/bin/mdview --no-open --root %h/agent-workspace
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target
